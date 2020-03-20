@@ -2,7 +2,7 @@
 <html>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>
-$('#yourButtonId').click(function() {
+$('ButtonId').click(function() {
 $.ajax({
   type: “POST”,
   url: “https://mandrillapp.com/api/1.0/messages/send.json”,
@@ -28,6 +28,5 @@ $.ajax({
 });
 </script>
 <head><title>email</title></head>
-<body>
-</form></body>
+<body><button id = 'ButtonId'>Button</button></body>
 </html>

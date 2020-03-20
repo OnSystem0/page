@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>OnCourse Connect :: Login</title>
+
+    <!-- start: Mobile Specific -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <!-- end: Mobile Specific -->
+    <!-- start: CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
+    <link href="https://www.oncourseconnect.com/css/login?v=eTECbQ5jCgbtyXpE15qVQIiCin0WHE6mrsJv2ixkks41" rel="stylesheet"/>
+
+    <!-- end: CSS -->
+    <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <link id="ie-style" href="/Content/css/ie.less" rel="stylesheet">
+        <script src="/Content/lib/respond.js"></script>
+    <![endif]-->
+    <!--[if IE 9]>
+        <link id="ie9style" href="/Content/css/ie9.less" rel="stylesheet">
+    <![endif]-->
+    <!-- start: Favicon and Touch Icons -->
+    <link rel="apple-touch-startup-image" href="https://www.oncourseconnect.com/Content/ico/apple-touch-startup.png" />
+    <link rel="apple-touch-startup-image" sizes="640x920" href="https://www.oncourseconnect.com/Content/ico/apple-touch-startup@2x.png" />
+    <link rel="apple-touch-startup-image" sizes="640x1096" href="https://www.oncourseconnect.com/Content/ico/apple-touch-startup-large@2x.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.oncourseconnect.com/Content/ico/apple-touch-icon-144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.oncourseconnect.com/Content/ico/apple-touch-icon-114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.oncourseconnect.com/Content/ico/apple-touch-icon-72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" href="https://www.oncourseconnect.com/Content/ico/apple-touch-icon-57-precomposed.png" />
+    <link rel="shortcut icon" href="https://www.oncourseconnect.com/Content/ico/favicon.png" />
+    <!-- end: Favicon and Touch Icons -->
+
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.oncourseconnect.com//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-39615967-6', 'auto');
+        ga('send', 'pageview');
+</script>
+
+
+
+
+</head>
+    <body>
+        <div class="site-wrapper">
+            <div class="site-wrapper-inner">
+                <div class="cover-container">
+                    <div class="cover inner">
+                        <span tabindex="0">
+                            <img class="occ-svg-login-logo" src="https://www.oncourseconnect.com/Content/img/occ_login_logo.svg" alt="OnCourse Connect Logo" />
+                            <img class="occ-login-logo" src="https://www.oncourseconnect.com/Content/img/occ_login_logo.png" alt="OnCourse Connect Logo" />
+                        </span>
+
+                        <!--[if lt IE 9]>
+                        <div class="alert alert-danger alert-dismissible" aria-label="Alert box" tabindex="0">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close this alert"><span aria-hidden="true">&times;</span></button>
+                            <h1>It appears you're using an unsupported browser.</h1>
+                            <p>
+                                Old browsers can put your security at risk, are slow and don't work with newer features.
+                                To get the latest that OnCourse Connect has to offer, you'll need to
+                                <strong>update to a <a href="http://www.whatbrowser.org/">modern browser</a></strong>.
+                            </p>
+                        </div>
+                        <![endif]-->
+
+
+
+<form action="/account/login" class="form login-form" method="post"><div class="body">
+        <!--[if lte IE 10]>
+            <div class="alert alert-danger" aria-label="alert box" tabindex="0">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close this alert"><span aria-hidden="true">&times;</span></button>
+                <h1>You are using an unsupported version of Internet Explorer:</h1>
+                <p>
+                    Unsupported browsers can put your security at risk, are slow and don't work with newer OnCourse Connect features. To get the latest that
+                    OnCourse Connect has to offer, you'll need to <strong>upgrade to a <a href="https://www.whatbrowser.org" target="_blank">modern browser</a>.</strong>
+                </p>
+            </div>
+        <![endif]-->
+
+    <input id="ReturnUrl" name="ReturnUrl" type="hidden" value="/" />
+
+    <div class="form-group">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="icon icon-oc-person"></i></span>
+            <input class="form-control" id="Username" name="Username" placeholder="Enter Username" type="text" value="" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="icon icon-oc-locked"></i></span>
+            <input class="form-control" id="Password" name="Password" placeholder="Enter Password" type="password" />
+        </div>
+    </div>
+
+    <div class="checkbox">
+        <label>
+            <input id="RememberMe" name="RememberMe" type="checkbox" value="true" /><input name="RememberMe" type="hidden" value="false" /> Remember Me
+        </label>
+    </div>
+</div>
+    <div class="login-btn-ctr">
+        <button class="btn btn-lg btn-primary" type="submit" data-loading-text="Logging in...">Log in</button>
+        <div><a href="https://www.oncourseconnect.com/account/forgotpassword">Forgot password?</a></div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container" role="contentinfo">
+                <p>Powered by OnCourse Systems For Education &copy; 2020</p>
+            </div>
+        </footer>
+
+        <script src="https://www.oncourseconnect.com//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>(jQuery)||document.write('<script src="/js/jquery"><\/script>');</script>
+<script src="https://www.oncourseconnect.com/js/login?v=LRwiQpX5lO1I_qQcBtkJy7iyErgYlxRfrQ5aeUn69gQ1"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#Username').focus();
+            $('input, textarea').placeholder();
+
+            // append the hash to the return url
+            $("#ReturnUrl").val(function(index, val) {
+                return val + window.location.hash;
+            });
+
+            $('.footer button').on('click', function() {
+                $(this).button('loading');
+            });
+        });
+    </script>
+
+    <script async type="text/javascript" src="https://www.oncourseconnect.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=3&cb=2105386643"></script>
+</body>
+</html>
